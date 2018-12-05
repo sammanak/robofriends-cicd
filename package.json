@@ -25,6 +25,11 @@
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "devDependencies": {
     "babel-jest": "^23.4.2",
     "enzyme": "^3.4.4",
