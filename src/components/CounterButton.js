@@ -4,7 +4,7 @@ class CounterButton extends Component {
 		constructor() {
       super();
       this.state = {
-        count: 0
+        count: 1
       }
     }
 		shouldComponentUpdate(nextProps, nextState) {
@@ -14,11 +14,11 @@ class CounterButton extends Component {
       return false;
     }
     
-    updateCount = () => {
-      this.setState( state => {
-        return { count: state.count + 1 }
-      })
-    }
+      updateCount = () => {
+            this.setState( state => {
+    return { count: state.count + 1 }
+                  })
+}
 
     render() {
 			return (
