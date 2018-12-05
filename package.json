@@ -23,7 +23,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "pre-commit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "devDependencies": {
     "babel-jest": "^23.4.2",
