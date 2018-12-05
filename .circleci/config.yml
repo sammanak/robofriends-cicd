@@ -13,7 +13,7 @@ jobs:
       - image: circleci/node:10.10.0
     steps:
       - checkout
-      - run: echo "tesing stuff"
+      - run: echo "testing stuff"
       - run: npm install
       - run: npm test
   hithere:
