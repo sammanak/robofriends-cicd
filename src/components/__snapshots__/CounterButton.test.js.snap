@@ -21,7 +21,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "Count: ",
-        0,
+        1,
       ],
       "color": "red",
       "id": "counter",
@@ -30,7 +30,7 @@ ShallowWrapper {
     "ref": null,
     "rendered": Array [
       "Count: ",
-      0,
+      1,
     ],
     "type": "button",
   },
@@ -42,7 +42,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "Count: ",
-          0,
+          1,
         ],
         "color": "red",
         "id": "counter",
@@ -51,7 +51,7 @@ ShallowWrapper {
       "ref": null,
       "rendered": Array [
         "Count: ",
-        0,
+        1,
       ],
       "type": "button",
     },
